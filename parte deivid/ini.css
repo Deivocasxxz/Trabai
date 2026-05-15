@@ -1,0 +1,139 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* Fundo do site */
+body{
+
+background-image: url(https://img.freepik.com/vetores-premium/plano-de-fundo-preto-e-cinza-com-sobreposicao-de-quadrados-geometricos-e-estilo-de-papel-de-sombra_518299-48.jpg);
+background-repeat: no-repeat;
+background-size: 100%;
+
+}
+
+/* Parte de login e Suporte */
+.part1{
+
+display: flex;
+justify-content: space-around;
+margin-top: 20px;
+
+}
+
+/* Todos botões que possuem funções */
+a{
+
+text-decoration: none;
+
+}
+
+.log{
+
+display: inline-block;
+    padding: 15px 30px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 12px;
+
+    /* 2. O Efeito Glass */
+    background: rgba(255, 255, 255, 0.1); 
+    backdrop-filter: blur(10px);        
+    -webkit-backdrop-filter: blur(10px);  
+    
+    /* 3. Detalhes para parecer vidro */
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);   
+    
+    transition: 0.3s;
+
+     font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200px;
+  font-style: normal;
+
+}
+
+
+.log:hover{
+
+background: rgba(255, 255, 255, 0.2);
+    transform: translateY(-3px); 
+
+}
+
+.sup{
+
+display: inline-block;
+    padding: 15px 30px;
+    text-decoration: none;
+    color: #333; 
+    font-weight: bold;
+    border-radius: 12px;
+
+    
+    background: rgba(255, 255, 255, 0.4); 
+    
+
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    
+    transition: all 0.3s ease;
+
+    font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200px;
+  font-style: normal;
+}
+
+.sup:hover{
+
+background: rgba(255, 255, 255, 0.6); 
+   transform: translateY(-3px);
+
+}
+
+
+.livros{
+
+display: flex;
+justify-content: center;
+margin-top: 300px;
+gap: 200px;
+
+}
+
+.livros a {
+    transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    display: inline-block;
+    perspective: 1000px; /* Cria profundidade para o efeito 3D */
+}
+
+.livros a:hover {
+    /* Faz o livro crescer e inclinar levemente, simulando a abertura */
+    transform: scale(1.15) rotateY(-10deg);
+    z-index: 10;
+}
+
+.livros img {
+    transition: filter 0.3s ease;
+}
+
+.livros a:hover img {
+    /* Adiciona um brilho e sombra para destacar o livro "aberto" */
+    filter: drop-shadow(0 20px 30px rgba(0,0,0,0.5));
+}
+
+
+.part3{
+
+
+
+}
