@@ -9,10 +9,9 @@
 /* Fundo do site */
 body{
 
-background: linear-gradient(180deg, #1f1f23 0%, #0d0d0f 100%);
-    background-attachment: fixed;
-    min-height: 100vh;
+background-image: url(Gemini_Generated_Image_7pfp977pfp977pfp\ \(2\).png), linear-gradient(45deg, black, black, black, black);
 
+  
 }
 
 /* Parte de login e Suporte */
@@ -106,7 +105,7 @@ background: rgba(255, 255, 255, 0.6);
 display: flex;
 justify-content: space-around;
 margin-top: 200px;
-
+  filter: drop-shadow(0 20px 30px rgba(0,0,0,0.5));
 
 }
 
@@ -134,6 +133,7 @@ font-size: 40px;
     transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     display: inline-block;
     perspective: 1000px; /* Cria profundidade para o efeito 3D */
+    
 }
 
 .livros a:hover {
@@ -155,11 +155,7 @@ font-size: 40px;
 .part3{
 
 display: flex;
-justify-content: end;
-gap: 300px;
-margin-top: 100px;
-
-
+justify-content: center;
 
 }
 
@@ -171,8 +167,7 @@ margin-top: 100px;
 .rv{
 
 display: flex;
-
-align-self: self-end;
+justify-content: end;
 color: rgba(255, 255, 255, 0.432);
 
 
