@@ -1,0 +1,10 @@
+body{
+    font-size: 10px;
+    background-image:url(Gemini_Generated_Image_7pfp977pfp977pfp\ \(2\).png) ;
+}
+.topo{
+    padding: 0.1em;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(120, 81, 49);
+}
