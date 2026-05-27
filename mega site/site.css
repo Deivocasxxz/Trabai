@@ -5,66 +5,17 @@ body{
     background-color: rgb(255, 255, 255);
 }
 .topo{
-     background-color: rgb(120, 81, 49);
+
      width: 100%;
 }
-.topo-1{
-    display: flex;
-    justify-content: space-between;
-    font-size: 2rem;
-    padding: 1rem;
-}
-.topo-1 img{
-    width: 10rem;
-    height: 8rem;
-}
-.teste img{
-    width: 40rem;
-    height: 15rem;
-}
-.topo-1 h6{
-    color: rgb(122, 75, 37);
-    width: 18rem;
-}
-.topo-2{
-    display: flex;
-    justify-content: space-between;
-    font-size: 1.5rem;
-    height: 7rem;
-        
-}
-.topo-2 a{
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    background-color: rgb(120, 81, 49);
-    height: 3rem;
-    width: 10rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 0.1rem solid rgb(86, 59, 14);
-}
 
-.topo-2 a:hover{
-   background-color: rgb(120, 81, 49);
-    color: rgb(255, 255, 255);
-    height: 4rem;
-}
-
-.cor{
-     background-color: rgb(120, 81, 49);
-        width: 12.89%;
-        height: 100%;
-        color:rgb(120, 81, 49);
-     
-}
 .corpo{
     display: flex;
     justify-content: space-between;
     width: 100%;
 }
 .esquerdo{
-    background-color: rgb(120, 81, 49);
+     
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -75,7 +26,23 @@ body{
 .esquerdo img{
     width: 10rem;
     height: 15rem;
-    border: 0.5rem solid white;
+    border: 0.5rem solid rgb(0, 0, 0);
+}
+.esquerdo a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+   
+    height: 3rem;
+    width: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.esquerdo a:hover{
+   
+    color: rgb(0, 0, 0);
+    height: 4rem;
 }
 .meio{
     display: flex;
@@ -84,18 +51,17 @@ body{
     gap: 1rem;
     padding: 1rem;
     width: 76%;
-;
 }
 .meio div{
-    background-color: rgb(220, 220, 220);
+    opacity: 0.8;
     width: 100%;
     height: 10rem;
     border-radius: 0.3rem;
-    border: 0.2rem solid rgb(202, 202, 202);
+    border: 0.2rem solid rgb(0, 0, 0);
     font-size: 1.3rem;
 }
 .direito{
-    background-color: rgb(120, 81, 49);
+  
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -107,6 +73,6 @@ body{
 
 }
 .direito div{
-    background-color: rgb(135, 89, 52);
+   
     font-size: 1.2rem;
 }
