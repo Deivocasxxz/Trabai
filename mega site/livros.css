@@ -1,0 +1,187 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    background-color: rgb(58, 41, 26);
+}
+
+section {
+    font-size: 10px;
+}
+
+.topo {
+    background-color: rgb(120, 81, 49);
+    padding: 1.0em;
+    margin-top: 0.5em;
+    width: 190em;
+    margin-left: 1.0em;
+    border: none;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4), 
+                0 0 1px rgba(255, 255, 255, 0.2);
+    border-radius: 2.5em;
+    display: flex;
+    align-items: center;
+    gap: 4em; /* Ajustado de 10em para 4em para dar espaço aos botões */
+}
+
+.bot {
+    display: flex;
+    gap: 3em; /* Ajustado de 12em para 3em para os botões caberem juntos */
+    margin-left: 4em; /* Ajustado de 17em para 4em para empurrar sem esmagar os links */
+}
+
+a {
+    background-color: rgb(252, 203, 164);
+    border-radius: 50%; /* Garante que fique um círculo perfeito */
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-decoration: none;
+    border: 2px solid rgb(58, 41, 26);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4), 
+                0 0 1px rgba(255, 255, 255, 0.2);
+    
+    width: 7.5em;
+    height: 7.5em;
+    
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    gap: 0.5em;          
+    font-weight: bold;
+    font-size: 1.2em; 
+    color: rgb(58, 41, 26); 
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); 
+}
+
+a img {
+    width: 2.5em;  
+    height: 2.5em; 
+    object-fit: contain;
+}
+
+a:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6), 
+                0 0 2px rgba(255, 255, 255, 0.4);
+    background-color: rgb(255, 215, 185); 
+}
+
+a:hover img[src*="house"] {
+    transform: translateY(-3px) scale(1.1);
+}
+
+a:hover img[src*="circle"] {
+    transform: rotate(360deg) scale(1.15);
+}
+
+a:hover img[src*="book"] {
+    transform: rotate(-15deg) scale(1.15);
+}
+
+a:active {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+/* ==========================================
+   NOVA SEÇÃO DE LIVROS (GRID TRAVADO 4x3)
+   ========================================== */
+
+.conteudo-principal {
+    max-width: 1400px;
+    margin: 4em auto;
+    padding: 0 2em;
+    font-family: "Sora", sans-serif;
+}
+
+.titulo-secao {
+    font-size: 3.2em;
+    color: rgb(252, 203, 164);
+    text-align: center;
+    margin-bottom: 1.5em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Força o grid a ter exatamente 4 colunas em telas maiores */
+.grid-livros {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3em;
+}
+
+/* Estilo do Card do Livro */
+.card-livro {
+    background-color: rgb(120, 81, 49);
+    border-radius: 2em;
+    overflow: hidden;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-livro:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+}
+
+/* Espaço da imagem */
+.capa-container {
+    width: 100%;
+    height: 380px;
+    background-color: rgb(45, 30, 18);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-bottom: 4px solid rgb(58, 41, 26);
+}
+
+.capa-livro {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* Mudamos de cover para contain */
+    transition: transform 0.5s ease;
+}
+
+
+.card-livro:hover .capa-livro {
+    transform: scale(1.05);
+}
+
+/* Textos internos do card sem o botão embaixo */
+.info-livro {
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.info-livro h3 {
+    font-size: 2em;
+    color: #fff;
+    margin-bottom: 0.3em;
+}
+
+.ano-publicacao {
+    font-size: 1.3em;
+    color: rgb(252, 203, 164);
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+.descricao-livro {
+    font-size: 1.3em;
+    color: #f0e6df;
+    line-height: 1.6;
+}
