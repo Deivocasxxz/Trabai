@@ -58,9 +58,9 @@ body{
 /*--------------------------- Biografia -----------------------*/
 
 .foto{
-    margin: 2em;
     height: 34em;
     display: flex;
+    justify-content: center;
     gap: 12em;
 }
 .foto img{
@@ -93,8 +93,30 @@ body{
 /*--------------------------- S.Biografia ---------------------*/
 
 .p2{
-    margin: 2em;
-    height: 34em;
+    padding: 2em;
+    height: 29em;
     display: flex;
     gap: 12em;
+}
+
+.resumo{
+    display: flex;
+    border: solid 0.3em;
+    border-radius: 1em;
+    height: 21em;
+    width: 26em;
+    background-color: rgb(219, 219, 219);
+}
+.cmç{
+    padding: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 43em;
+    height: 19em;
+    color: rgb(180, 176, 176);
+    background-color: rgb(69, 45, 45);
+    font-size: 0.9em;
+    border-radius: 2em;
+    border: solid black 0.3em;
 }
