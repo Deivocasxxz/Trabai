@@ -93,30 +93,31 @@ body{
 /*--------------------------- S.Biografia ---------------------*/
 
 .p2{
-    padding: 2em;
+    margin: 1em;
     height: 29em;
     display: flex;
     gap: 12em;
+    justify-content: center;
 }
 
 .resumo{
-    display: flex;
-    border: solid 0.3em;
+    padding: 1.1em;
+    font-size: 2em;
+    width: 13.5em;
+    background-color: azure;
+    text-align: center;
     border-radius: 1em;
-    height: 21em;
-    width: 26em;
-    background-color: rgb(219, 219, 219);
+    border: 0.18em solid;
 }
 .cmç{
     padding: 2em;
     display: flex;
-    justify-content: center;
     align-items: center;
-    width: 43em;
-    height: 19em;
+    width: 44.3em;
+    height: 12em;
     color: rgb(180, 176, 176);
     background-color: rgb(69, 45, 45);
-    font-size: 0.9em;
+    font-size: 1.75em;
     border-radius: 2em;
     border: solid black 0.3em;
 }
