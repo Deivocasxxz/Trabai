@@ -1,19 +1,22 @@
 body{
+    padding: 0;
     margin: 0%;
-    font-size: 10px;
-    background-image:url(Gemini_Generated_Image_7pfp977pfp977pfp\ \(2\).png) ;
+    font-size: 16px;
+    background-color: #b3aa9a ;
 }
 .topo{
     align-items: center;
-    height: 8em;
+    height: 5rem;
+    width: auto;
     padding: 0.3em;
     display: flex;
     justify-content: space-between;
-    background-color: rgb(120, 81, 49);
+    background-color: #785131;
 }
+
 .as {
     background-color: rgb(252, 203, 164);
-    border-radius: 50%; /* Garante que fique um círculo perfeito */
+    border-radius: 50%; 
     font-family: "Sora", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
@@ -33,15 +36,14 @@ body{
     
     gap: 0.5em;          
     font-weight: bold;
-    font-size: 1.2em; 
+    font-size: 0.9rem; 
     color: rgb(58, 41, 26); 
     transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); 
 }
 
 .as img {
     width: 2.5em;  
-    height: 2.5em; 
-    object-fit: contain;
+    height: 2.5em;
 }
 
 .as:hover {
@@ -56,23 +58,23 @@ body{
 }
 
 
-/*------------------------------------- Botões -------------------------------*/
+/*------------------------------------- Botões -----------------------------------------*/
 
 .itens{
-    font-size: 2.3em;
-    margin: 1em;
+    font-size: 2rem;
+    margin: 1rem;
     display: flex;
     justify-content: center;
     color: white;
-    gap: 10em;
+    gap: 10rem;
 }
 .page{
     display: flex;
-    width: 4em;
+    width: 9rem;
     justify-content: center;
     align-items: center;
     background-color: rgb(120, 81, 49);
-    border-radius: 1em;
+    border-radius: 1rem;
 }
 .page a{
     text-decoration: none;
@@ -85,11 +87,11 @@ body{
 
 .david{
     display: flex;
-    width: 4em;
+    width: 9rem;
     justify-content: center;
     align-items: center;
     background-color: rgb(120, 81, 49);
-    border-radius: 1em
+    border-radius: 1rem
 }
 .david a{
     text-decoration: none;
@@ -101,67 +103,59 @@ body{
 
 /*--------------------------- Biografia -----------------------*/
 
-.foto{
-    height: 34em;
+.h1{
     display: flex;
     justify-content: center;
-    gap: 12em;
-}
-.foto img{
-    width: 32em;
-    height: 34em;
-    border-radius: 2em;
-    border: solid black 0.3em;
+    font-size: 3rem;
+    color: #785131;
 }
 
-
-.res{
-    text-align: center;
-    height: 0;
-    font-size: 2em;
-    color:rgba(237, 234, 234, 0.352);
-}
-.resp{
-    padding: 2em;
+.parteTop{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 43em;
-    height: 10em;
-    color: rgb(180, 176, 176);
-    background-color: rgb(69, 45, 45);
-    font-size: 0.9em;
-    border-radius: 2em;
+}
+
+.foto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.foto img{
+    width: 22rem;
     border: solid black 0.3em;
 }
+.resumo{
+    padding: 1rem;
+    font-size: 1.5rem;
+    width: 20rem;
+    background-color: rgb(202, 177, 156);
+    text-align: center;
+    border: 0.3rem solid;
+}
+
+
 /*--------------------------- S.Biografia ---------------------*/
 
-.p2{
-    margin: 1em;
-    height: 29em;
-    display: flex;
-    gap: 12em;
-    justify-content: center;
-}
 
-.resumo{
-    padding: 1.1em;
-    font-size: 2em;
-    width: 13.5em;
-    background-color: azure;
-    text-align: center;
-    border-radius: 1em;
-    border: 0.18em solid;
-}
-.cmç{
-    padding: 2em;
+
+
+.resp{
     display: flex;
     align-items: center;
-    width: 44.3em;
-    height: 12em;
+    flex-direction: column;
+
+    padding: 2rem;
+    width: 50rem;
+    font-size: 1.2rem;
+    margin: 2rem;
+    gap: 1rem;
+
     color: rgb(180, 176, 176);
-    background-color: rgb(69, 45, 45);
-    font-size: 1.75em;
-    border-radius: 2em;
-    border: solid black 0.3em;
+    background-color:  #785131;
+    border-radius: 0.5rem;
 }
