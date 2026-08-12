@@ -2,7 +2,7 @@ body{
     padding: 0;
     margin: 0%;
     font-size: 16px;
-    background-color: #b3aa9a ;
+    background-color: #ffffff ;
 }
 .topo{
     align-items: center;
@@ -11,39 +11,42 @@ body{
     padding: 0.3em;
     display: flex;
     justify-content: space-between;
-    background-color: #785131;
+
+}
+
+.t{
+    display: flex;
+    gap: 2em;
 }
 
 .as {
-    background-color: rgb(252, 203, 164);
-    border-radius: 50%; 
+    background-color: rgb(206, 131, 69);
+    border-radius: 4rem; 
     font-family: "Sora", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
     text-decoration: none;
-    border: 2px solid rgb(58, 41, 26);
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4), 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4), 
                 0 0 1px rgba(255, 255, 255, 0.2);
     
-    width: 6em;
-    height: 6em;
+    width: 7em;
+    height: 2em;
     
 
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     
     gap: 0.5em;          
     font-weight: bold;
-    font-size: 0.9rem; 
-    color: rgb(58, 41, 26); 
+    font-size: 1rem; 
+    color: rgb(255, 255, 255); 
     transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); 
 }
 
 .as img {
-    width: 2.5em;  
-    height: 2.5em;
+    width: 1.5em;  
+    height: 1.5em;
 }
 
 .as:hover {
@@ -60,102 +63,3 @@ body{
 
 /*------------------------------------- Botões -----------------------------------------*/
 
-.itens{
-    font-size: 2rem;
-    margin: 1rem;
-    display: flex;
-    justify-content: center;
-    color: white;
-    gap: 10rem;
-}
-.page{
-    display: flex;
-    width: 9rem;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(120, 81, 49);
-    border-radius: 1rem;
-}
-.page a{
-    text-decoration: none;
-    color: white;
-}
-.page:hover{
-    background-color: rgb(76, 51, 30);
-}
-
-
-.david{
-    display: flex;
-    width: 9rem;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(120, 81, 49);
-    border-radius: 1rem
-}
-.david a{
-    text-decoration: none;
-    color: white;
-}
-.david:hover{
-    background-color: rgb(76, 51, 30);
-}
-
-/*--------------------------- Biografia -----------------------*/
-
-.h1{
-    display: flex;
-    justify-content: center;
-    font-size: 3rem;
-    color: #785131;
-}
-
-.parteTop{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.foto{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
-}
-
-
-.foto img{
-    width: 22rem;
-    border: solid black 0.3em;
-}
-.resumo{
-    padding: 1rem;
-    font-size: 1.5rem;
-    width: 20rem;
-    background-color: rgb(202, 177, 156);
-    text-align: center;
-    border: 0.3rem solid;
-}
-
-
-/*--------------------------- S.Biografia ---------------------*/
-
-
-
-
-.resp{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-
-    padding: 2rem;
-    width: 50rem;
-    font-size: 1.2rem;
-    margin: 2rem;
-    gap: 1rem;
-
-    color: rgb(180, 176, 176);
-    background-color:  #785131;
-    border-radius: 0.5rem;
-}
